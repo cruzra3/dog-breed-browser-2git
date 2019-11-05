@@ -1,0 +1,112 @@
+<% include ./header %>
+
+<h1>Select the breed</h1>
+
+<form action="/byBreedResult" method="POST">
+    <div class="form-row align-items-center">
+        <div class="col-auto my-2">
+            <select name="selectedBreed" class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                <option selected>Choose...</option>
+                <option value="affenpinscher">affenpinscher</option>
+                <option value="african">african</option>
+                <option value="airedale">airedale</option>
+                <option value="akita">akita</option>
+                <option value="appenzeller">appenzeller</option>
+                <option value="basenji">basenji</option>
+                <option value="beagle">beagle</option>
+                <option value="bluetick">bluetick</option>
+                <option value="borzoi">borzoi</option>
+                <option value="bouvier">bouvier</option>
+                <option value="boxer">boxer</option>
+                <option value="brabancon">brabancon</option>
+                <option value="briard">briard</option>
+                <option value="buhund">buhund</option>
+                <option value="bulldog">bulldog</option>
+                <option value="bullterrier">bullterrier</option>
+                <option value="cairn">cairn</option>
+                <option value="cattledog">cattledog</option>
+                <option value="chihuahua">chihuahua</option>
+                <option value="chow">chow</option>
+                <option value="clumber">clumber</option>
+                <option value="cockapoo">cockapoo</option>
+                <option value="collie">collie</option>
+                <option value="coonhound">coonhound</option>
+                <option value="corgi">corgi</option>
+                <option value="cotondetulear">cotondetulear</option>
+                <option value="dachshund">dachshund</option>
+                <option value="dalmatian">dalmatian</option>
+                <option value="great dane">great dane</option>
+                <option value="deerhound">deerhound</option>
+                <option value="dhole">dhole</option>
+                <option value="dingo">dingo</option>
+                <option value="doberman">doberman</option>
+                <option value="elkhound">elkhound</option>
+                <option value="entlebucher">entlebucher</option>
+                <option value="eskimo">eskimo</option>
+                <option value="frise">frise</option>
+                <option value="germanshepherd">germanshepherd</option>
+                <option value="greyhound">greyhound</option>
+                <option value="groenendael">groenendael</option>
+                <option value="hound">hound</option>
+                <option value="husky">husky</option>
+                <option value="keeshond">keeshond</option>
+                <option value="kelpie">kelpie</option>
+                <option value="komondor">komondor</option>
+                <option value="kuvasz">kuvasz</option>
+                <option value="labrador">labrador</option>
+                <option value="leonberg">leonberg</option>
+                <option value="lhasa">lhasa</option>
+                <option value="malamute">malamute</option>
+                <option value="malinois">malinois</option>
+                <option value="maltese">maltese</option>
+                <option value="mastiff">mastiff</option>
+                <option value="mexicanhairless">mexicanhairless</option>
+                <option value="mix">mix</option>
+                <option value="mountain">mountain</option>
+                <option value="newfoundland">newfoundland</option>
+                <option value="otterhound">otterhound</option>
+                <option value="papillon">papillon</option>
+                <option value="pekinese">pekinese</option>
+                <option value="pembroke">pembroke</option>
+                <option value="pinscher">pinscher</option>
+                <option value="pointer">pointer</option>
+                <option value="pomeranian">pomeranian</option>
+                <option value="poodle">poodle</option>
+                <option value="pug">pug</option>
+                <option value="puggle">puggle</option>
+                <option value="pyrenees">pyrenees</option>
+                <option value="redbone">redbone</option>
+                <option value="retriever">retriever</option>
+                <option value="ridgeback">ridgeback</option>
+                <option value="rottweiler">rottweiler</option>
+                <option value="saluki">saluki</option>
+                <option value="samoyed">samoyed</option>
+                <option value="schipperke">schipperke</option>
+                <option value="schnauzer">schnauzer</option>
+                <option value="setter">setter</option>
+                <option value="sheepdog">sheepdog</option>
+                <option value="shiba">shiba</option>
+                <option value="shihtzu">shihtzu</option>
+                <option value="spaniel">spaniel</option>
+                <option value="springer">springer</option>
+                <option value="stbernard">stbernard</option>
+                <option value="terrier">terrier</option>
+                <option value="vizsla">vizsla</option>
+                <option value="waterdog">waterdog</option>
+                <option value="weimaraner">weimaraner</option>
+                <option value="whippet">whippet</option>
+                <option value="wolfhound">wolfhound</option>
+            </select>
+
+        </div>
+        <div class="col-auto my-1">
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+        <div>
+            <a class="btn btn-primary" href="/">Back to Index Page</a>
+        </div>
+
+    </div>
+</form>
+
+<% include ./footer %>

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>My First Web Page</h2>
+<p>My First Paragraph.</p>
+
+<p id="demo"></p>
+<p id="demo2"></p>
+<p id="demo3"></p>
+
+<script>
+var allData = 
+{ message:
+   { affenpinscher: [],
+     african: [],
+     airedale: [],
+     akita: [],
+     appenzeller: [],
+     basenji: [],
+     beagle: [],
+     bluetick: [],
+     borzoi: [],
+     bouvier: [],
+     boxer: [],
+     brabancon: [],
+     briard: [],
+     buhund: [ 'norwegian' ],
+     bulldog: [ 'boston', 'english', 'french' ],
+     bullterrier: [ 'staffordshire' ],
+     cairn: [],
+     cattledog: [ 'australian' ],
+     chihuahua: [],
+     chow: [],
+     clumber: [],
+     cockapoo: [],
+     collie: [ 'border' ],
+     coonhound: [],
+     corgi: [ 'cardigan' ],
+     cotondetulear: [],
+     dachshund: [],
+     dalmatian: [],
+     dane: [ 'great' ],
+     deerhound: [ 'scottish' ],
+     dhole: [],
+     dingo: [],
+     doberman: [],
+     elkhound: [ 'norwegian' ],
+     entlebucher: [],
+     eskimo: [],
+     frise: [ 'bichon' ],
+     germanshepherd: [],
+     greyhound: [ 'italian' ],
+     groenendael: [],
+     hound:
+      [ 'afghan', 'basset', 'blood', 'english', 'ibizan', 'walker' ],
+     husky: [],
+     keeshond: [],
+     kelpie: [],
+     komondor: [],
+     kuvasz: [],
+     labrador: [],
+     leonberg: [],
+     lhasa: [],
+     malamute: [],
+     malinois: [],
+     maltese: [],
+     mastiff: [ 'bull', 'english', 'tibetan' ],
+     mexicanhairless: [],
+     mix: [],
+     mountain: [ 'bernese', 'swiss' ],
+     newfoundland: [],
+     otterhound: [],
+     papillon: [],
+     pekinese: [],
+     pembroke: [],
+     pinscher: [ 'miniature' ],
+     pointer: [ 'german', 'germanlonghair' ],
+     pomeranian: [],
+     poodle: [ 'miniature', 'standard', 'toy' ],
+     pug: [],
+     puggle: [],
+     pyrenees: [],
+     redbone: [],
+     retriever: [ 'chesapeake', 'curly', 'flatcoated', 'golden' ],
+     ridgeback: [ 'rhodesian' ],
+     rottweiler: [],
+     saluki: [],
+     samoyed: [],
+     schipperke: [],
+     schnauzer: [ 'giant', 'miniature' ],
+     setter: [ 'english', 'gordon', 'irish' ],
+     sheepdog: [ 'english', 'shetland' ],
+     shiba: [],
+     shihtzu: [],
+     spaniel:
+      [ 'blenheim',
+        'brittany',
+        'cocker',
+        'irish',
+        'japanese',
+        'sussex',
+        'welsh' ],
+     springer: [ 'english' ],
+     stbernard: [],
+     terrier:
+      [ 'american',
+        'australian',
+        'bedlington',
+        'border',
+        'dandie',
+        'fox',
+        'irish',
+        'kerryblue',
+        'lakeland',
+        'norfolk',
+        'norwich',
+        'patterdale',
+        'russell',
+        'scottish',
+        'sealyham',
+        'silky',
+        'tibetan',
+        'toy',
+        'westhighland',
+        'wheaten',
+        'yorkshire' ],
+     vizsla: [],
+     waterdog: [ 'spanish' ],
+     weimaraner: [],
+     whippet: [],
+     wolfhound: [ 'irish' ] 
+    }
+}
+
+  let breeds = Object.keys(allData.message);
+  let arrEmpty = [];
+  let arrBreeds = arrEmpty.concat(breeds);
+  
+  let arrSubBreeds = [];
+  for (let i = 0; i < arrBreeds.length; i++) {
+    for (let j = 0; j < allData.message[arrBreeds[i]].length; j++) {
+      arrSubBreeds.push(arrBreeds[i] + '/' + allData.message[arrBreeds[i]][j]);
+    }
+  }
+  for (let i = 0; i < arrSubBreeds.length; i++) {
+    console.log(i + " " + arrSubBreeds[i]);
+  }
+  // https://dog.ceo/api/breed/bulldog/boston/images get a list of images url's
+  // https://dog.ceo/api/breed/arrSubBreeds[i]/images get a list of images url's
+
+// document.getElementById("demo3").innerHTML = arrBreeds;
+// document.getElementById("demo").innerHTML = Object.keys(allData.message);
+// document.getElementById("demo2").innerHTML = Object.values(allData.message);
+// console.log('arrBreeds[i] ==> ' + arrBreeds[i]);
+// console.log('allData.message[arrBreeds[i]] ==> ' + allData.message[arrBreeds[i]]);
+// console.log('allData.message[arrBreeds[i]].length ==> ' + allData.message[arrBreeds[i]].length);
+// console.log('arrBreeds[i] ==> ' + arrBreeds[i] + ' allData.message[arrBreeds[i]][j] ==> ' + allData.message[arrBreeds[i]][j]);
+// console.log('allData.message[arrBreeds[i]][j] ==> ' + allData.message[arrBreeds[i]][j]);
+
+// objetivo, crear un array como este:
+// [ [buhund-norwegian'],[spaniel-blenheim],[spaniel-brittany],[spaniel-cocker] ] 
+
+// var from = [
+//         {"name": "bob", "values": {"A": 1, "B": 2, "C": 3}}, 
+//         {"name": "ted", "values": {"A": 4, "B": 5, "C": 6}}
+//     ],
+//     to = [],
+//     i, person, valueKey, newObj;
+
+// for (i = 0; i < from.length; i++) {
+
+//     person = from[i];
+
+//     for (valueKey in person.values) {
+
+//       console.log('person.values[valueKey]=' + person.values[valueKey]);
+         
+//         newObj = {};
+//         newObj.name = person.name;
+//         newObj[valueKey] = person.values[valueKey];
+    
+
+//         to.push(newObj);
+//     }
+// }
+
+
+
+
+
+
+
+</script>
+
+</body>
+</html> 

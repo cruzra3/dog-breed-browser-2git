@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/bootstrap-4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/stylesheets/main.css">
+    <title>Dog Breed Browser Index</title>
+</head>
+<body>
+  
+<div class="container">
+    <div class="jumbotron">
+        <h1>Dog Breed Browser</h1>
+        <p>Browse all breeds, or by breed or by sub-breed</p>
+    </div>
+
+    <div class="container">
+        <% if(error && error.length > 0){ %>
+        <div class="alert alert-danger" role="alert">
+            <%= error %>
+        </div>
+        <% } %>
+        <% if(success && success.length > 0){ %>
+        <div class="alert alert-success" role="alert">
+            <%= success %>
+        </div>
+        <% } %>
+    </div>
+

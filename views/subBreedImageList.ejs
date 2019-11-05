@@ -1,0 +1,32 @@
+<% include ./header %>
+
+<div class="container">
+  <h2>'<%= subBreed %>' Images List</h2>
+  <a class="btn btn-primary" href="/">Back to Index Page</a>
+  <a class="btn btn-primary" href="/allSubBreedsList">Back to All Sub-Breeds List</a>
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Sub-Breed Image link </th>
+      </tr>
+    </thead>
+    <tbody>
+      <% urls.forEach((url) => { %>
+      <tr>
+        <form action="/image" method="POST">
+          <td>
+            <div style="display: inline;">
+                <img src="<%= url %>" class="rounded fViews-tSubBreedImageList-cImg" alt="dog image" 
+                width="75" height="75">
+                <input type="hidden" name="link" value="<%= url %>">
+                <input type="submit" class="btn btn-primary fViews-tSubBreedImageList-cSubmit" value="Enlarge Image">
+                <=== Click this button to see the image enlarged
+            </div>
+          </td>
+        </form>
+      </tr>
+      <% }); %>
+    </tbody>
+  </table>
+</div>
+<% include ./footer %>

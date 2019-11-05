@@ -1,0 +1,16 @@
+<% include ./header %>
+
+<h1>Result Page For "<%= breed %>" Breed Dogs</h1>
+<a class="btn btn-primary fviews-tbyBreedResult-igoBack" href="/byBreed">Back to Select Breed</a>
+<div class="row text center">
+<% data.message.forEach((image) => { %>
+    <!-- <div class="col-lg-3 col-md-6 col-sm-12"> -->
+    <div class="col-lg-3 col-md-6">
+        <div class="img-wrapper">
+            <img class="left-block" src="<%= image %>" alt="Dog image" />
+        </div>
+    </div>
+<% }); %>
+</div>
+
+<% include ./footer %>

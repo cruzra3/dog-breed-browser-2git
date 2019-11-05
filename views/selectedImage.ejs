@@ -1,0 +1,16 @@
+<% include ./header %>
+<div class="container d-flex justify-content-center">
+    <h1>Selected '<%= breed %>' Image</h1>
+</div>
+<div class="container d-flex justify-content-center">
+    <p>
+        <a class="btn btn-primary" href="/">Back to Index Page</a>
+        <a class="btn btn-primary" href="/subBreedImages/<%= breed %>">Back to '<%= breed %>' Image List</a>
+    </p>
+</div>
+
+<div class="container d-flex justify-content-center">
+    <img src="<%= selectedImage %>" class="img-thumbnail" alt="dog selected img" width="500" height="500">
+</div>
+
+<% include ./footer %>

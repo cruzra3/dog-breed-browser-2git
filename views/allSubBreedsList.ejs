@@ -1,0 +1,21 @@
+<% include ./header %>
+
+<div class="container">
+  <h2>All Sub-Breeds List</h2>
+  <a class="btn btn-primary" href="/">Back to Index Page</a>
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Sub-Breed Name </th>
+      </tr>
+    </thead>
+    <tbody>
+      <% arrSubBreeds.forEach((subBreed) => { %>
+      <tr>
+        <td>Click here ===><a href="/subBreedImages/<%= subBreed %>"><%= subBreed %></a> for a list of '<%= subBreed %>' images</td>
+      </tr>
+      <% }); %>
+    </tbody>
+  </table>
+</div>
+<% include ./footer %>

@@ -1,0 +1,262 @@
+allData
+{ message:
+   { affenpinscher: [],
+     african: [],
+     airedale: [],
+     akita: [],
+     appenzeller: [],
+     basenji: [],
+     beagle: [],
+     bluetick: [],
+     borzoi: [],
+     bouvier: [],
+     boxer: [],
+     brabancon: [],
+     briard: [],
+     buhund: [ 'norwegian' ],
+     bulldog: [ 'boston', 'english', 'french' ],
+     bullterrier: [ 'staffordshire' ],
+     cairn: [],
+     cattledog: [ 'australian' ],
+     chihuahua: [],
+     chow: [],
+     clumber: [],
+     cockapoo: [],
+     collie: [ 'border' ],
+     coonhound: [],
+     corgi: [ 'cardigan' ],
+     cotondetulear: [],
+     dachshund: [],
+     dalmatian: [],
+     dane: [ 'great' ],
+     deerhound: [ 'scottish' ],
+     dhole: [],
+     dingo: [],
+     doberman: [],
+     elkhound: [ 'norwegian' ],
+     entlebucher: [],
+     eskimo: [],
+     frise: [ 'bichon' ],
+     germanshepherd: [],
+     greyhound: [ 'italian' ],
+     groenendael: [],
+     hound:
+      [ 'afghan', 'basset', 'blood', 'english', 'ibizan', 'walker' ],
+     husky: [],
+     keeshond: [],
+     kelpie: [],
+     komondor: [],
+     kuvasz: [],
+     labrador: [],
+     leonberg: [],
+     lhasa: [],
+     malamute: [],
+     malinois: [],
+     maltese: [],
+     mastiff: [ 'bull', 'english', 'tibetan' ],
+     mexicanhairless: [],
+     mix: [],
+     mountain: [ 'bernese', 'swiss' ],
+     newfoundland: [],
+     otterhound: [],
+     papillon: [],
+     pekinese: [],
+     pembroke: [],
+     pinscher: [ 'miniature' ],
+     pointer: [ 'german', 'germanlonghair' ],
+     pomeranian: [],
+     poodle: [ 'miniature', 'standard', 'toy' ],
+     pug: [],
+     puggle: [],
+     pyrenees: [],
+     redbone: [],
+     retriever: [ 'chesapeake', 'curly', 'flatcoated', 'golden' ],
+     ridgeback: [ 'rhodesian' ],
+     rottweiler: [],
+     saluki: [],
+     samoyed: [],
+     schipperke: [],
+     schnauzer: [ 'giant', 'miniature' ],
+     setter: [ 'english', 'gordon', 'irish' ],
+     sheepdog: [ 'english', 'shetland' ],
+     shiba: [],
+     shihtzu: [],
+     spaniel:
+      [ 'blenheim',
+        'brittany',
+        'cocker',
+        'irish',
+        'japanese',
+        'sussex',
+        'welsh' ],
+     springer: [ 'english' ],
+     stbernard: [],
+     terrier:
+      [ 'american',
+        'australian',
+        'bedlington',
+        'border',
+        'dandie',
+        'fox',
+        'irish',
+        'kerryblue',
+        'lakeland',
+        'norfolk',
+        'norwich',
+        'patterdale',
+        'russell',
+        'scottish',
+        'sealyham',
+        'silky',
+        'tibetan',
+        'toy',
+        'westhighland',
+        'wheaten',
+        'yorkshire' ],
+     vizsla: [],
+     waterdog: [ 'spanish' ],
+     weimaraner: [],
+     whippet: [],
+     wolfhound: [ 'irish' ] 
+    }
+}
+
+
+
+<option value="affenpinscher">affenpinscher</option> 
+<option value="african">african</option>
+<option value="airedale">airedale</option> 
+<option value="akita">akita</option> 
+<option value="appenzeller">appenzeller</option> 
+<option value="basenji">basenji</option>
+<option value="beagle">beagle</option> 
+<option value="bluetick">bluetick</option> 
+<option value="borzoi">borzoi</option> 
+<option value="bouvier">bouvier</option>
+<option value="boxer">boxer</option>
+<option value="brabancon">brabancon</option>
+<option value="briard">briard</option>
+<option value="norwegian buhund">norwegian buhund</option>
+<option value="boston bulldog">boston bulldog</option>
+<option value="english bulldog">english bulldog</option>
+<option value="french bulldog">french bulldog</option>
+<option value="staffordshire bullterrier">staffordshire bullterrier</option>
+<option value="cairn">cairn</option>
+<option value="australian cattledog">australian cattledog</option>
+<option value="chihuahua">chihuahua</option>
+<option value="chow">chow</option>
+<option value="clumber">clumber</option>
+<option value="cockapoo">cockapoo</option>
+<option value="border collie">border collie</option>
+<option value="coonhound">coonhound</option>
+<option value="cardigan corgi">cardigan corgi</option>
+<option value="cotondetulear">cotondetulear</option>
+<option value="dachshund">dachshund</option>
+<option value="dalmatian">dalmatian</option>
+<option value="great dane">great dane</option>
+<option value="scottish deerhound">scottish deerhound</option>
+<option value="dhole">dhole</option>
+<option value="dingo">dingo</option>
+<option value="doberman">doberman</option>
+<option value="norwegian elkhound">norwegian elkhound</option>
+<option value="entlebucher">entlebucher</option>
+<option value="eskimo">eskimo</option>
+<option value="bichon frise">bichon frise</option>
+<option value="germanshepherd">germanshepherd</option>
+<option value="italian greyhound">italian greyhound</option>
+<option value="groenendael">groenendael</option>
+a<option value="afghan hound">afghan hound</option>
+<option value="basset hound">basset hound</option>
+<option value="blood hound">blood hound</option>
+<option value="english hound">english hound</option>
+<option value="ibizan hound">ibizan hound</option>
+<option value="walker hound">walker hound</option>
+<option value="husky">husky</option>
+<option value="keeshond">keeshond</option>
+<option value="kelpie">kelpie</option>
+<option value="komondor">komondor</option>
+<option value="kuvasz">kuvasz</option>
+<option value="labrador">labrador</option>
+<option value="leonberg">leonberg</option>
+<option value="lhasa">lhasa</option>
+<option value="malamute">malamute</option>
+<option value="malinois">malinois</option>
+<option value="maltese">maltese</option>
+<option value="bull mastiff">bull mastiff</option>
+<option value="english mastiff">english mastiff</option>
+<option value="tibetan mastiff">tibetan mastiff</option>
+<option value="mexicanhairless">mexicanhairless</option>
+<option value="mix">mix</option>
+<option value="bernese mountain">bernese mountain</option>
+<option value="swiss mountain">swiss mountain</option>
+<option value="newfoundland">newfoundland</option>
+<option value="otterhound">otterhound</option>
+<option value="papillon">papillon</option>
+<option value="pekinese">pekinese</option>
+<option value="pembroke">pembroke</option>
+<option value="miniature pinscher">miniature pinscher</option>
+<option value="german pointer">german pointer</option>
+<option value="germanlonghair pointer">germanlonghair pointer</option>
+<option value="pomeranian">pomeranian</option>
+<option value="miniature poodle">miniature poodle</option>
+<option value="standard poodle">standard poodle</option>
+<option value="toy poodle">toy poodle</option>
+<option value="pug">pug</option>
+<option value="puggle">puggle</option>
+<option value="pyrenees">pyrenees</option>
+<option value="redbone">redbone</option>
+<option value="chesapeake retriever">chesapeake retriever</option>
+<option value="curly retriever">curly retriever</option>
+<option value="flatcoated retriever">flatcoated retriever</option>
+<option value="golden retriever">golden retriever</option>
+<option value="rhodesian ridgeback">rhodesian ridgeback</option>
+<option value="rottweiler">rottweiler</option>
+<option value="saluki">saluki</option>
+<option value="samoyed">samoyed</option>
+<option value="schipperke">schipperke</option>
+<option value="giant schnauzer">giant schnauzer</option>
+<option value="miniature schnauzer">miniature schnauzer</option>
+<option value="english setter">english setter</option>
+<option value="gordon setter">gordon setter</option>
+<option value="irish setter">irish setter</option>
+<option value="english sheepdog">english sheepdog</option>
+<option value="shetland sheepdog">shetland sheepdog</option>
+<option value="shiba">shiba</option>
+<option value="shihtzu">shihtzu</option>
+<option value="blenheim spaniel">blenheim spaniel</option>
+<option value="brittany spaniel">brittany spaniel</option>
+<option value="cocker spaniel">cocker spaniel</option>
+<option value="irish spaniel">irish spaniel</option>
+<option value="japanese spaniel">japanese spaniel</option>
+<option value="sussex spaniel">sussex spaniel</option>
+<option value="welsh spaniel">welsh spaniel</option>
+<option value="english springer">english springer</option>
+<option value="stbernard">stbernard</option>
+<option value="american terrier">american terrier</option>
+<option value="australian terrier">australian terrier</option>
+<option value="bedlington terrier">bedlington terrier</option>
+<option value="border terrier">border terrier</option>
+<option value="dandie terrier">dandie terrier</option>
+<option value="fox terrier">fox terrier</option>
+<option value="irish terrier">irish terrier</option>
+<option value="kerryblue terrier">kerryblue terrier</option>
+<option value="lakeland terrier">lakeland terrier</option>
+<option value="norfolk terrier">norfolk terrier</option>
+<option value="norwich terrier">norwich terrier</option>
+<option value="patterdale terrier">patterdale terrier</option>
+<option value="russell terrier">russell terrier</option>
+<option value="scottish terrier">scottish terrier</option>
+<option value="sealyham terrier">sealyham terrier</option>
+<option value="silky terrier">silky terrier</option>
+<option value="tibetan terrier">tibetan terrier</option>
+<option value="toy terrier">toy terrier</option>
+<option value="westhighland terrier">westhighland terrier</option>
+<option value="wheaten terrier">wheaten terrier</option>
+<option value="yorkshire terrier">yorkshire terrier</option>
+<option value="vizsla">vizsla</option>
+<option value="spanish waterdog">spanish waterdog</option>
+<option value="weimaraner">weimaraner</option>
+<option value="whippet">whippet</option>
+<option value="irish wolfhound">irish wolfhound</option>
+
+

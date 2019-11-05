@@ -1,0 +1,21 @@
+<% include ./header %>
+
+<div class="container">
+  <h2>All Breeds List</h2>
+  <a class="btn btn-primary" href="/">Back to Index Page</a>
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Breed Name </th>
+      </tr>
+    </thead>
+    <tbody>
+      <% breedsArray.forEach((breed) => { %>
+      <tr>
+        <td><%= breed %></td>
+      </tr>
+      <% }); %>
+    </tbody>
+  </table>
+</div>
+<% include ./footer %>

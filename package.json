@@ -1,0 +1,22 @@
+{
+  "name": "dog-finder",
+  "version": "1.0.0",
+  "description": "This App displays dog images and information",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rafael Angel Cruz",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.4",
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "pryjs": "^1.0.3",
+    "request": "^2.88.0"
+  }
+}
